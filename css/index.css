@@ -77,6 +77,11 @@ hr {
     padding: 10px 15px;
 }
 
+.brief span {
+    color: #0b65ad;
+    font-weight: bold;
+}
+
 .clear-fix {
     clear: both;
 }
