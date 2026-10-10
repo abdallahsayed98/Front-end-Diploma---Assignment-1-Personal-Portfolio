@@ -8,8 +8,8 @@ body {
 }
 
 hr {
-    border: 1px solid #dceeff;
-    color: #dceeff;
+    border: none;
+    border-top: 1px solid #dceeff;
     margin-bottom: 35px;
 }
 
@@ -44,14 +44,18 @@ hr {
     margin-bottom: 20px;
 }
 
-.header .link {
+.links .link {
+    display: inline-block;
     color: #fafbfc;
     text-decoration: none;
     background-color: #2a5685;
     padding: 10px 15px;
-    border-radius: 20px;
     border: 1px solid #55789e;
     margin: 0 5px;
+}
+
+.header .link {
+    border-radius: 20px;
 }
 
 .about .profile-picture {
@@ -69,7 +73,6 @@ hr {
 .about .brief {
     width: 75%;
     float: left;
-    margin: 0 auto;
     padding: 10px 15px;
 }
 
@@ -88,10 +91,11 @@ hr {
 }
 
 .about .github-btn {
+    display: inline-block;
+    text-decoration: none;
     color: #fafbfc;
     background-color: #0b65ad;
     padding: 15px 20px;
-    border: none;
     border-radius: 10px;
     margin-top: 10px;
 }
@@ -108,7 +112,6 @@ hr {
 .skills .box {
     width: 20%;
     float: left;
-    border: 1px solid;
     margin: 0 2%;
     border: 1px solid #dceeff;
     border-radius: 10px;
@@ -125,7 +128,74 @@ hr {
     margin-bottom: 25px;
 }
 
+.experience .experiences {
+    margin-bottom: 30px;
+}
 
+.experience .exp {
+    background-color: #f8fafc;
+    border: 1px solid #e2e8f0;
+    border-left: 5px solid #0b65ad;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
 
+.experience .company-picture {
+    width: 10%;
+    float: left;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #dfecfe;
+    background-color: #fff;
+}
 
+.company-picture img {
+    width: 80%;
+    margin: 10px 10%;
+}
 
+.exp .description {
+    width: 90%;
+    float: left;
+    padding: 10px 25px;
+}
+
+.description h3 {
+    color: #1e293b;
+}
+
+.description h4 {
+    color: #0b65ad;
+}
+
+.contact .container {
+    background-color: #18487b;
+    color: #fffcf8;
+}
+
+.contact h2 {
+    color: #fffcf8;
+}
+
+.contact hr {
+    border-color: #436a93;
+}
+
+.contact .links {
+    margin: 30px 0 20px;
+}
+
+.contact .link {
+    border-radius: 10px;
+}
+
+.footer .container {
+    background-color: #071a35;
+    color: #fafbfc;
+}
+
+.footer span {
+    color: #74c8ff;
+    font-weight: bold;
+}
