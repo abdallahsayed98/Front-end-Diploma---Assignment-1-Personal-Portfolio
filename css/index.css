@@ -20,7 +20,7 @@ hr {
 .container {
     width: 70%;
     margin: 30px auto;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
     background-color: #ffffff;
     border: 1px solid #e3e9f0;
@@ -33,6 +33,7 @@ hr {
 .header .container {
     background-color: #18487b;
     color: #fafbfc;
+    padding: 45px 30px;
 }
 
 .header .job-title {
